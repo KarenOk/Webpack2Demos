@@ -1,0 +1,26 @@
+{
+	"name": "webpack-2-the-complete-developer-guide",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"build": "webpack"
+	},
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"babel-loader": "^8.1.0",
+		"extract-text-webpack-plugin": "^2.0.0-beta.4",
+		"file-loader": "^6.1.1",
+		"image-webpack-loader": "^7.0.1",
+		"url-loader": "^4.1.1",
+		"webpack": "^2.2.0-rc.0"
+	},
+	"dependencies": {
+		"@babel/core": "^7.12.3",
+		"@babel/preset-env": "^7.12.1",
+		"css-loader": "^3.0.0",
+		"style-loader": "^2.0.0"
+	}
+}
