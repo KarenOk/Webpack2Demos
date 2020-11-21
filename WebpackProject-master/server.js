@@ -2,6 +2,9 @@ const express = require("express");
 const path = require("path");
 const app = express();
 
+// Server routes
+app.get("/hello", (req, res) => res.send("Hello"));
+
 if (process.env.NODE_ENV !== "production") {
 	const webpackMiddleware = require("webpack-dev-middleware");
 	const webpack = require("webpack");
